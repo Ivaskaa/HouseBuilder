@@ -23,4 +23,14 @@ public class Director {
         builder.setPoll(true);
         builder.setGarage(true);
     }
+
+    public void constructThirdHouse(Builder builder){
+        builder.setCountFlor(1);
+        builder.setDoor(new Door(2, 1, Material.WOOD));
+        builder.setWindows(new Windows(2, 2, Material.PLASTIC));
+        builder.setWalls(new Walls(3, 1, 40, Material.BLOCK));
+        builder.setRoof(new Roof(4, 16,20, Material.METAL));
+        builder.setPoll(true);
+        builder.setGarage(true);
+    }
 }
