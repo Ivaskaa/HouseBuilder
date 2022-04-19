@@ -15,7 +15,5 @@ public class Main {
         director.constructSecondHouse(builder);
         House house2 = builder.getResult();
         System.out.println(house2.getInfo());
-
-
     }
 }
